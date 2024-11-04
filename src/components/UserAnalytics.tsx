@@ -1,11 +1,11 @@
 import React from 'react'
 
-function blog() {
+function UserAnalytics() {
   return (
     <div>
-      <h1>Blog Pg</h1>
+      
     </div>
   )
 }
 
-export default blog
+export default UserAnalytics

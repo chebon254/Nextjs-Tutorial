@@ -13,21 +13,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-        style={{
+        <header style={{
           backgroundColor: "lightblue",
           padding: "1rem"
         }}>
           <p>Header</p>
-          <Link href="/order-product">Order</Link>
+          <Link href="/">Home</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/product">Products</Link>
         </header>
-        {children}
-        <footer
-          style={{
-            backgroundColor: "ghostwhite",
-            padding: "1rem"
-          }}
-        >
+        <main style={{
+          padding: "1rem",
+        }}>
+          {children}
+        </main>
+        <footer style={{
+          backgroundColor: "#eeeeee",
+          padding: "1rem"
+        }}>
           <p>Footer</p>
         </footer>
       </body>

@@ -1,3 +1,11 @@
-export default function login() {
-    return <h1>Login</h1>;
+import React from 'react'
+
+function login() {
+  return (
+    <div>
+      <h1>Login Pg</h1>
+    </div>
+  )
 }
+
+export default login
